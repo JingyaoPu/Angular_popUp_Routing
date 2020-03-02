@@ -1,0 +1,22 @@
+:host {
+    position: fixed;
+    top:0;
+    right:0;
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+div {
+  position: absolute;
+  height: 30%;
+  width:40%;
+  background-color: white;
+  opacity: 1;
+  border-radius: 0.4em;
+  font-size: 10px;
+}

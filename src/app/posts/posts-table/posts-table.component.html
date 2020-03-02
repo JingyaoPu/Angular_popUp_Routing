@@ -1,0 +1,13 @@
+<table>
+    <tr>
+        <th *ngFor="let i of titles">{{i}}</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor="let i of posts; index as idx">
+        <td>{{i.userId}}</td>
+        <td>{{i.id}}</td>
+        <td>{{i.title}}</td>
+        <td>{{i.body}}</td>
+        <td><button (click)="showComments(i.id)">Show Comments</button></td>
+    </tr>
+</table>
